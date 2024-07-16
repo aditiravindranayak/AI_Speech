@@ -1,0 +1,121 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .file-upload {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-instructions {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .info-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .info-lists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info-list {
+    flex: 1 1 33%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-item {
+    margin-bottom: 5px;
+  }
+  
+  .start-reading-btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .start-reading-btn:hover {
+    background-color: #218838;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .info-list {
+      flex: 1 1 100%;
+      margin-right: 0;
+    }
+  }
+  
